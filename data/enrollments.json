@@ -1,0 +1,52 @@
+[
+  {
+    "id": "e2cc6784-960f-4434-a472-20788d486c33",
+    "userId": "3adb93d1-5b4e-48c1-ab49-f510fd965708",
+    "courseId": "05212839-0836-43c4-a288-9c973dd8da27",
+    "courseName": "Mobile App Development with React Native",
+    "amount": 4499,
+    "paymentMethod": "upi",
+    "paymentDetails": {
+      "UPI ID": "77777777"
+    },
+    "paymentStatus": "approved",
+    "status": "active",
+    "completedModules": [],
+    "assignmentSubmitted": false,
+    "assignmentText": "",
+    "completed": false,
+    "enrolledAt": "2026-04-07T07:00:06.868Z",
+    "paymentNote": "",
+    "updatedAt": "2026-04-07T07:00:25.121Z"
+  },
+  {
+    "id": "7e7d96a5-38fb-4725-929c-f91df14d7c4d",
+    "userId": "87bca859-088d-4356-956d-c3198a903bed",
+    "courseId": "88864878-2a62-460d-9010-d1ba57867671",
+    "courseName": "Python for Data Science & ML",
+    "amount": 5999,
+    "paymentMethod": "upi",
+    "paymentDetails": {
+      "UPI ID": "00000000"
+    },
+    "paymentStatus": "approved",
+    "status": "active",
+    "completedModules": [
+      "794f2456-8703-4118-891f-f7d8a16f9bb9",
+      "ac12afff-373d-49d2-83f9-b711e758e6e5",
+      "acbe6169-af2f-4bd3-beca-70716ae8cfb1",
+      "8907a7ed-c070-4d1d-9748-a047c5a5518e",
+      "c18640be-2b68-4922-b3f1-88e5fd091ede"
+    ],
+    "assignmentSubmitted": true,
+    "assignmentText": "good\n",
+    "completed": true,
+    "enrolledAt": "2026-04-07T07:01:28.853Z",
+    "paymentNote": "",
+    "updatedAt": "2026-04-07T07:02:44.079Z",
+    "allModulesCompleted": true,
+    "assignmentFile": "",
+    "assignmentSubmittedAt": "2026-04-07T07:02:51.186Z",
+    "completedAt": "2026-04-07T07:02:51.186Z"
+  }
+]

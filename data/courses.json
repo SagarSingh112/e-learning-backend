@@ -1,0 +1,352 @@
+[
+  {
+    "id": "af50eb51-1b24-4097-b976-cf636d73a418",
+    "title": "Complete Web Development Bootcamp",
+    "description": "Master HTML, CSS, JavaScript, React, Node.js and more. Build real-world projects and become a full-stack developer.",
+    "instructor": "Dr. Sarah Johnson",
+    "price": 4999,
+    "category": "Web Development",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=600",
+    "rating": 4.8,
+    "students": 12540,
+    "duration": "48 hours",
+    "modules": [
+      {
+        "id": "9704c37a-9001-4ec2-83d1-b53a37f3484a",
+        "title": "HTML Fundamentals",
+        "description": "Learn the building blocks of web pages",
+        "videoUrl": "https://www.youtube.com/embed/qz0aGYrrlhU",
+        "duration": "2h 30m",
+        "order": 1
+      },
+      {
+        "id": "06ff71ad-892f-498b-84f1-4af024c87b84",
+        "title": "CSS Styling & Layouts",
+        "description": "Master styling with CSS and Flexbox/Grid",
+        "videoUrl": "https://www.youtube.com/embed/1Rs2ND1ryYc",
+        "duration": "3h 15m",
+        "order": 2
+      },
+      {
+        "id": "eddeb5f1-20a1-40c2-a947-94cabcb1d4a6",
+        "title": "JavaScript Essentials",
+        "description": "Core JavaScript concepts and DOM manipulation",
+        "videoUrl": "https://www.youtube.com/embed/PkZNo7MFNFg",
+        "duration": "4h 00m",
+        "order": 3
+      },
+      {
+        "id": "5b2ea0ed-f1fc-42e1-bd47-ae95339b2ba0",
+        "title": "React Framework",
+        "description": "Build dynamic UIs with React",
+        "videoUrl": "https://www.youtube.com/embed/bMknfKXIFA8",
+        "duration": "5h 30m",
+        "order": 4
+      },
+      {
+        "id": "90277aa2-313a-4077-88ac-e2f242d7729b",
+        "title": "Node.js Backend",
+        "description": "Server-side JavaScript with Node.js",
+        "videoUrl": "https://www.youtube.com/embed/fBNz5xF-Kx4",
+        "duration": "4h 45m",
+        "order": 5
+      }
+    ],
+    "assignment": {
+      "title": "Build a Full-Stack Web Application",
+      "description": "Create a complete web application using the skills learned in this course. Your app should include a frontend built with React and a backend API with Node.js. Submit your GitHub repository link.",
+      "dueInDays": 7
+    },
+    "createdAt": "2026-04-07T06:59:29.524Z"
+  },
+  {
+    "id": "88864878-2a62-460d-9010-d1ba57867671",
+    "title": "Python for Data Science & ML",
+    "description": "Learn Python programming and apply it to data science, machine learning, and AI. Includes pandas, numpy, scikit-learn, and TensorFlow.",
+    "instructor": "Prof. Michael Chen",
+    "price": 5999,
+    "category": "Data Science",
+    "level": "Intermediate",
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600",
+    "rating": 4.9,
+    "students": 9871,
+    "duration": "60 hours",
+    "modules": [
+      {
+        "id": "794f2456-8703-4118-891f-f7d8a16f9bb9",
+        "title": "Python Programming Basics",
+        "description": "Variables, loops, functions and OOP",
+        "videoUrl": "https://www.youtube.com/embed/_uQrJ0TkZlc",
+        "duration": "3h 00m",
+        "order": 1
+      },
+      {
+        "id": "ac12afff-373d-49d2-83f9-b711e758e6e5",
+        "title": "NumPy & Pandas",
+        "description": "Data manipulation and analysis",
+        "videoUrl": "https://www.youtube.com/embed/vmEHCJofslg",
+        "duration": "3h 30m",
+        "order": 2
+      },
+      {
+        "id": "acbe6169-af2f-4bd3-beca-70716ae8cfb1",
+        "title": "Data Visualization",
+        "description": "Matplotlib, Seaborn and Plotly",
+        "videoUrl": "https://www.youtube.com/embed/a9UrKTVEeZA",
+        "duration": "2h 45m",
+        "order": 3
+      },
+      {
+        "id": "8907a7ed-c070-4d1d-9748-a047c5a5518e",
+        "title": "Machine Learning with Scikit-Learn",
+        "description": "Classification, regression and clustering",
+        "videoUrl": "https://www.youtube.com/embed/0Lt9w-BxKFQ",
+        "duration": "5h 00m",
+        "order": 4
+      },
+      {
+        "id": "c18640be-2b68-4922-b3f1-88e5fd091ede",
+        "title": "Deep Learning & Neural Networks",
+        "description": "TensorFlow and Keras fundamentals",
+        "videoUrl": "https://www.youtube.com/embed/aircAruvnKk",
+        "duration": "4h 30m",
+        "order": 5
+      }
+    ],
+    "assignment": {
+      "title": "ML Model Project",
+      "description": "Build a machine learning model that solves a real-world problem. Document your process, from data collection to model evaluation. Submit a Jupyter Notebook.",
+      "dueInDays": 10
+    },
+    "createdAt": "2026-04-07T06:59:29.524Z"
+  },
+  {
+    "id": "eb9c3ba8-19ef-48bc-b208-e507b305dd89",
+    "title": "UI/UX Design Masterclass",
+    "description": "Learn professional UI/UX design from scratch. Master Figma, design principles, user research, wireframing, and prototyping.",
+    "instructor": "Emma Rodriguez",
+    "price": 3499,
+    "category": "Design",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600",
+    "rating": 4.7,
+    "students": 7230,
+    "duration": "36 hours",
+    "modules": [
+      {
+        "id": "6cdeff58-a0a5-4eb4-bca1-8d6833088c48",
+        "title": "Design Principles & Theory",
+        "description": "Color, typography and visual hierarchy",
+        "videoUrl": "https://www.youtube.com/embed/c9Wg6Cb_YlU",
+        "duration": "2h 30m",
+        "order": 1
+      },
+      {
+        "id": "267dfb51-8cf0-482f-8540-87ef824cbb1b",
+        "title": "Figma Essentials",
+        "description": "Master the leading design tool",
+        "videoUrl": "https://www.youtube.com/embed/FTFaQWZBqQ8",
+        "duration": "3h 00m",
+        "order": 2
+      },
+      {
+        "id": "797052d3-ca85-4db5-97d0-7316ea59a1f5",
+        "title": "User Research Methods",
+        "description": "Interviews, surveys and usability testing",
+        "videoUrl": "https://www.youtube.com/embed/X0Yl7aHEJmE",
+        "duration": "2h 15m",
+        "order": 3
+      },
+      {
+        "id": "aa8b3845-e2fc-417b-8e71-43ff14245c2a",
+        "title": "Wireframing & Prototyping",
+        "description": "From sketches to interactive prototypes",
+        "videoUrl": "https://www.youtube.com/embed/ykn4XNDwW7Q",
+        "duration": "3h 30m",
+        "order": 4
+      }
+    ],
+    "assignment": {
+      "title": "Design a Mobile App UI",
+      "description": "Design a complete mobile app of your choice from user research to high-fidelity prototype. Present your design decisions and share the Figma link.",
+      "dueInDays": 14
+    },
+    "createdAt": "2026-04-07T06:59:29.524Z"
+  },
+  {
+    "id": "377ea7ce-f72a-41d5-a22d-0201df9c91e7",
+    "title": "Digital Marketing & SEO",
+    "description": "Master digital marketing strategies including SEO, social media marketing, Google Ads, content marketing, and email campaigns.",
+    "instructor": "James Wilson",
+    "price": 2999,
+    "category": "Marketing",
+    "level": "Beginner",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600",
+    "rating": 4.6,
+    "students": 15300,
+    "duration": "30 hours",
+    "modules": [
+      {
+        "id": "372de65b-d19a-4a85-b5ad-b0b0355a3be7",
+        "title": "SEO Fundamentals",
+        "description": "On-page and off-page SEO strategies",
+        "videoUrl": "https://www.youtube.com/embed/DvwS7cV9GmQ",
+        "duration": "2h 30m",
+        "order": 1
+      },
+      {
+        "id": "8e8b24b1-16aa-471f-a742-eb3e477f95a4",
+        "title": "Social Media Marketing",
+        "description": "Build and grow on major platforms",
+        "videoUrl": "https://www.youtube.com/embed/qWkRtfAm_Bg",
+        "duration": "2h 45m",
+        "order": 2
+      },
+      {
+        "id": "a4a0451d-800b-4d84-bd9b-2b4454e71792",
+        "title": "Google Ads & PPC",
+        "description": "Run profitable paid campaigns",
+        "videoUrl": "https://www.youtube.com/embed/8ZQOZ_PbBaI",
+        "duration": "3h 00m",
+        "order": 3
+      },
+      {
+        "id": "5a7da394-4c26-4048-bc73-75914efe740d",
+        "title": "Email Marketing",
+        "description": "Build lists and create campaigns",
+        "videoUrl": "https://www.youtube.com/embed/q6e0Op6X4kk",
+        "duration": "2h 00m",
+        "order": 4
+      }
+    ],
+    "assignment": {
+      "title": "Create a Digital Marketing Campaign",
+      "description": "Plan and present a complete digital marketing campaign for a business of your choice. Include SEO strategy, social media plan, and ad budget allocation.",
+      "dueInDays": 7
+    },
+    "createdAt": "2026-04-07T06:59:29.524Z"
+  },
+  {
+    "id": "05212839-0836-43c4-a288-9c973dd8da27",
+    "title": "Mobile App Development with React Native",
+    "description": "Build cross-platform mobile apps for iOS and Android using React Native. Learn navigation, state management, APIs, and deployment.",
+    "instructor": "Priya Sharma",
+    "price": 4499,
+    "category": "Mobile Development",
+    "level": "Intermediate",
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600",
+    "rating": 4.8,
+    "students": 5641,
+    "duration": "42 hours",
+    "modules": [
+      {
+        "id": "599bfff8-b7a2-4970-8786-2b1e551a3c47",
+        "title": "React Native Setup & Basics",
+        "description": "Environment setup and core components",
+        "videoUrl": "https://www.youtube.com/embed/0-S5a0eXPoc",
+        "duration": "3h 00m",
+        "order": 1
+      },
+      {
+        "id": "84d0571b-5ee0-419c-a077-29c61be4db0d",
+        "title": "Navigation & Routing",
+        "description": "Stack, tab and drawer navigation",
+        "videoUrl": "https://www.youtube.com/embed/Hhh4bNPCGMQ",
+        "duration": "2h 30m",
+        "order": 2
+      },
+      {
+        "id": "9645fda7-3cba-473f-9bf2-2d42fe958436",
+        "title": "State Management with Redux",
+        "description": "Managing complex application state",
+        "videoUrl": "https://www.youtube.com/embed/CVpUuw9XSjY",
+        "duration": "3h 30m",
+        "order": 3
+      },
+      {
+        "id": "9f507015-39e7-4d78-b68f-6baad1b7dd43",
+        "title": "API Integration & Async",
+        "description": "REST APIs, fetch and async operations",
+        "videoUrl": "https://www.youtube.com/embed/gp5H0Vw39yw",
+        "duration": "2h 45m",
+        "order": 4
+      },
+      {
+        "id": "79713c2d-5558-452f-aff0-1149886da8ab",
+        "title": "Deployment & Publishing",
+        "description": "Deploy to App Store and Google Play",
+        "videoUrl": "https://www.youtube.com/embed/oBWBDaqpnlM",
+        "duration": "2h 00m",
+        "order": 5
+      }
+    ],
+    "assignment": {
+      "title": "Build a Cross-Platform Mobile App",
+      "description": "Create a functional mobile application using React Native. The app must work on both iOS and Android. Include at least 3 screens and API integration.",
+      "dueInDays": 14
+    },
+    "createdAt": "2026-04-07T06:59:29.524Z"
+  },
+  {
+    "id": "4c6caaf2-aeff-40c4-a593-e262465e2439",
+    "title": "Cybersecurity & Ethical Hacking",
+    "description": "Learn cybersecurity fundamentals, penetration testing, network security, and ethical hacking techniques used by security professionals.",
+    "instructor": "Alex Thompson",
+    "price": 6499,
+    "category": "Cybersecurity",
+    "level": "Advanced",
+    "thumbnail": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600",
+    "rating": 4.9,
+    "students": 4120,
+    "duration": "55 hours",
+    "modules": [
+      {
+        "id": "c98933ba-868d-41f3-a7cb-6d5053ff19fe",
+        "title": "Networking Fundamentals",
+        "description": "TCP/IP, protocols and network architecture",
+        "videoUrl": "https://www.youtube.com/embed/qiQR5rTSshw",
+        "duration": "3h 30m",
+        "order": 1
+      },
+      {
+        "id": "464e5e1a-3c1c-4c2b-963e-cd60f45a90ed",
+        "title": "Linux for Security",
+        "description": "Command line and security tools",
+        "videoUrl": "https://www.youtube.com/embed/ZtqBQ68cfJc",
+        "duration": "4h 00m",
+        "order": 2
+      },
+      {
+        "id": "23ef44de-a54f-4fe7-b5c7-6cc684442875",
+        "title": "Penetration Testing",
+        "description": "Ethical hacking methodologies",
+        "videoUrl": "https://www.youtube.com/embed/3Kq1MIfTWCE",
+        "duration": "5h 00m",
+        "order": 3
+      },
+      {
+        "id": "cf0a09cc-ff7c-4681-916a-e11ef653aa59",
+        "title": "Web Application Security",
+        "description": "OWASP Top 10 and vulnerability testing",
+        "videoUrl": "https://www.youtube.com/embed/WjMvd55myHE",
+        "duration": "4h 30m",
+        "order": 4
+      },
+      {
+        "id": "ce5a20b4-060d-4e8a-a9fd-33e81ce8a952",
+        "title": "Cryptography & Defense",
+        "description": "Encryption, firewalls and IDS/IPS",
+        "videoUrl": "https://www.youtube.com/embed/AQDCe585Lnc",
+        "duration": "3h 45m",
+        "order": 5
+      }
+    ],
+    "assignment": {
+      "title": "Security Audit Report",
+      "description": "Perform a security audit on a test environment provided. Document all vulnerabilities found, their severity, and recommended fixes. Submit a professional security report.",
+      "dueInDays": 10
+    },
+    "createdAt": "2026-04-07T06:59:29.524Z"
+  }
+]

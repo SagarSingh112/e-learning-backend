@@ -1,0 +1,19 @@
+[
+  {
+    "id": "03894452-e468-4967-bf3a-1b5385faad97",
+    "name": "Admin",
+    "email": "admin@elearn.com",
+    "password": "$2a$10$rcqNIeKe1aI/Far/.NEuAufs.W9a9r4CRsh79uwURrXkfD4QeJkqS",
+    "role": "admin",
+    "createdAt": "2026-04-07T06:59:29.521Z"
+  },
+  {
+    "id": "87bca859-088d-4356-956d-c3198a903bed",
+    "name": "puni",
+    "email": "puni00@gmailcom",
+    "password": "$2a$10$.Q7h3ZTZpyWzF6wCVstYr.g1HguB9lt7eZ53eBDKeNriO4Cl1/r/e",
+    "phone": "6361914669",
+    "role": "student",
+    "createdAt": "2026-04-07T07:01:11.021Z"
+  }
+]
