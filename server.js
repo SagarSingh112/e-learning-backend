@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const mongoose = require('mongoose');
 const seed = require('./seed');
 
 const app = express();
@@ -29,6 +30,10 @@ app.get('/api/health', (req, res) => res.json({ status: 'OK', message: 'E-Learni
 // Start server
 async function startServer() {
   try {
+    // Connect MongoDB
+    await mongoose.connect(process.env.MONGODB_URI);
+    console.log('✅ MongoDB Connected');
+
     await seed();
     app.listen(PORT, () => {
       console.log(`\n🚀 E-Learning Server running on http://localhost:${PORT}`);
