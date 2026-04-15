@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const path = require('path');
 const mongoose = require('mongoose');
 const seed = require('./seed');
 
@@ -20,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use('/api/auth', require('./routes/auth'));
-app.use('/api/courses', require('./routes/courses'));
+app.use('/api/courses', require('./routes/courses').router);
 app.use('/api/enrollments', require('./routes/enrollments'));
 app.use('/api/admin', require('./routes/admin'));
 
@@ -30,19 +29,11 @@ app.get('/api/health', (req, res) => res.json({ status: 'OK', message: 'E-Learni
 // Start server
 async function startServer() {
   try {
-    // Connect MongoDB
     await mongoose.connect(process.env.MONGODB_URI);
     console.log('✅ MongoDB Connected');
-
     await seed();
     app.listen(PORT, () => {
-      console.log(`\n🚀 E-Learning Server running on http://localhost:${PORT}`);
-      console.log(`📚 API Endpoints:`);
-      console.log(`   POST /api/auth/register - Register student`);
-      console.log(`   POST /api/auth/login    - Login`);
-      console.log(`   GET  /api/courses       - Get all courses`);
-      console.log(`   POST /api/enrollments   - Enroll in course`);
-      console.log(`\n🔑 Admin Login: admin@elearn.com / admin123\n`);
+      console.log(`🚀 Server running on port ${PORT}`);
     });
   } catch (err) {
     console.error('Failed to start server:', err);
